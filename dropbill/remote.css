@@ -1,0 +1,93 @@
+.vtc-iwrapperH{
+    visibility: hidden;
+    opacity: 0;
+}
+.vtc-iwrapper{
+  width:500px;
+  height:400px;
+  margin:auto;
+  border:2px solid #e3e3e3;
+  position:fixed;
+  z-index:1000;
+}
+.vtc-iframe{
+	width: 100%;
+	height: 100%;
+	border:0px;
+	background-color: transparent;
+}
+.vtc-text-primary{
+  color:#0059b2;
+  background-color:#c6dfff;
+  border-radius: 5px;
+  padding:0px 3px;
+  border:1px solid #0059b2;
+  font-size:.86em;
+}
+.vtc-text-primary:hover{
+  background-color: #82cafa;
+}
+.vtc-active{
+    display:inline-block;
+    position:relative;
+}
+.vtc-i-right.vtc-active:before{
+    content:"";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:-10px;right:-25px;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    border-right:20px solid #fff;
+    z-index:1003;
+}
+.vtc-i-right.vtc-active:after{
+    content:"";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:-10px;right:-21px;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    border-right:20px solid #e3e3e3;
+    z-index: 1002;
+}
+.vtc-i-left.vtc-active:before{
+    content:"";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:-10px;left:-26px;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    border-left:20px solid #ffffff;
+    z-index: 1003;
+}
+.vtc-i-left.vtc-active:after{
+    content:" ";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:-10px;left:-22px;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    border-left:20px solid #e3e3e3;
+    z-index: 1002;
+}
+.vtc-i-bottom.vtc-active:before{
+    content:"";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:25px;left:10px;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom:20px solid #fff;
+    z-index: 1003;
+}
+.vtc-i-bottom.vtc-active:after{
+    content:" ";
+    display:block;
+    width: 0px;height: 0px;
+    position: absolute;top:21px;left:10px;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom:20px solid #e3e3e3;
+    z-index: 1002;
+}

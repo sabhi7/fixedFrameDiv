@@ -25,9 +25,7 @@ a{
 img{
 	border:0px;
 }
-html,body{
-	height: 100%;
-}
+
 #container{
 	width:90%;/*height: 100%;*/
 	margin:auto;
@@ -55,10 +53,9 @@ ul>li:hover{
 	background-color: #e3e3e3;
 }	
 #content{
-	height: 500px;
+	//height: 500px;
 	background-color: #Fff8dc;
-	overflow: auto;
-	padding:0px 20px;
+	padding:10px 20px;
 }
 #main-footer{
 	min-height: 50px;
@@ -73,34 +70,4 @@ ul>li:hover{
 	position:fixed;
 	left:0px;
 	bottom:0px;
-}
-.vtc-iwrapperH{
-    visibility: hidden;
-    opacity: 0;
-}
-.vtc-iwrapper{
-  width:500px;
-  height:400px;
-  margin:auto;
-  border:2px solid red;
-  position:fixed;
-  overflow: hidden;
-  z-index:1000;
-}
-.vtc-iframe{
-	width: 100%;
-	height: 100%;
-	border:0px;
-	background-color: transparent;
-}
-.vtc-text-primary{
-  color:#0059b2;
-  background-color:#c6dfff;
-  border-radius: 5px;
-  padding:0px 3px;
-  border:1px solid #0059b2;
-  font-size:.86em;
-}
-.vtc-text-primary:hover{
-    background-color: #82cafa;
 }

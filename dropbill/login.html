@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+		<link rel="stylesheet" href="dropbill.css" />
+    <script>
+			var logged_in = 'false';
+  	</script>
+  </head>
+    <body>
+    	<div class="wrapper">
+    		<div class="container">
+    			<header>
+          	<h2>Please login to vote.</h2>
+          </header>
+    			<section class="m-t-sm">
+  					<div class="p-t-sm clearfix">
+							<form method="POST">
+								<div class="form-group">
+									<input type="email" name="vtc_username" placeholder="Email"  required/>
+								</div>
+								<div class="form-group">
+									<input type="password" name="vtc_password" placeholder="password" required/>
+								</div>
+								<div class="form-group m-t-sm">
+									<button type="submit" class="btn">Login</button>
+								</div>
+								<div class="clearfix m-b-xs">
+									<div class="col-5">
+										<a href="#">Forgot Password</a>
+									</div>
+									<div class="col-5 text-right p-r-xs">
+										Don't have account? <a href="register.html">Sign Up</a>
+									</div>
+								</div>
+		            <input type="hidden" name="_target_path" value="" />
+							</form>
+						</div>
+    			</section>
+    			<footer id="main-footer" class="m-t-sm">
+  					<a href="dropbill.html"><img src="poweredbyvotetocracy.jpg" alt="votetocracy"></a>
+  				</footer>
+    		</div>
+    	</div>
+      <script src="dropbill.js"></script>
+  </body>
+</html>
